@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق منشئ الفيديوهات</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            text-align: center;
+        }
+        button { 
+            padding: 15px 30px; 
+            margin: 10px; 
+            font-size: 18px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 تطبيق منشئ الفيديوهات</h1>
+    
+    <button onclick="searchTools()">🔍 بحث عن أدوات الفيديو</button>
+    <br>
+    <button onclick="openFacebook()">📘 فيسبوك</button>
+    <button onclick="openInstagram()">📷 انستجرام</button>
+    <br>
+    <button onclick="openTikTok()">🎵 تيك توك</button>
+    <button onclick="openYouTube()">📺 يوتيوب</button>
+
+    <script>
+        function searchTools() {
+            window.open('https://www.google.com/search?q=أدوات إنشاء فيديو مجانية 2024', '_blank');
+        }
+        function openFacebook() { window.open('https://facebook.com', '_blank'); }
+        function openInstagram() { window.open('https://instagram.com', '_blank'); }
+        function openTikTok() { window.open('https://tiktok.com', '_blank'); }
+        function openYouTube() { window.open('https://youtube.com', '_blank'); }
+    </script>
+</body>
+</html>
